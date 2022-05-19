@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<MoviesCatalogueSopro.Models.Genre>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Genre";
 }
 
-<h1>Index</h1>
+<h1>Genres</h1>
 
-<p>
+<div class="createButton">
     <a asp-action="Create">Create New</a>
-</p>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -22,20 +22,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.GenreId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.GenreId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.GenreId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.GenreId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.GenreId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.GenreId">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
