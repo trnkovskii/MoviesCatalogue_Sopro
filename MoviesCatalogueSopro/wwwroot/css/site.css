@@ -7,9 +7,10 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
 }
 
 .btn-primary {
@@ -59,13 +60,108 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background: #eaf4f9;
 }
+
+thead {
+    background: #80cff1;
+    color: black;
+}
+tbody {
+    background: #cfd8dd;
+    color: black;
+}
+.details {
+    background: #cfd8dd;
+    color: black;
+    padding: 20px;
+}
+.col-md-4 {
+    background: #cfd8dd;
+    color: black;
+    padding-top: 20px;
+}
+.createButton {
+    margin-left: 1015px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #444;
+    border: 1px solid #CCC;
+    background: #cfd8dd;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+.listButton {
+    display: inline-block;
+    color: #444;
+    border: 1px solid #CCC;
+    background: #cfd8dd;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.listButtonEdit {
+    display: inline-block;
+    color: #444;
+    border: 1px solid #CCC;
+    background: #cfd8dd;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.listButtonDetails {
+    display: inline-block;
+    color: #444;
+    border: 1px solid #CCC;
+    background: #cfd8dd;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.listButtonDelete {
+    display: inline-block;
+    color: #444;
+    border: 1px solid #CCC;
+    background: #cfd8dd;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+form {
+    margin-top: 5px;
+}
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
 }
