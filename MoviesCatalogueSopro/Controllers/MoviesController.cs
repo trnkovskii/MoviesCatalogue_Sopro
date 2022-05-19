@@ -20,10 +20,17 @@ namespace MoviesCatalogueSopro.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var applicationDbContext = _context.Movie.Include(m => m.Genre).Include(m => m.People);
-            return View(await applicationDbContext.ToListAsync());
+            var movies = from m in _context.Movie
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title!.Contains(searchString));
+            }
+
+            return View(await movies.ToListAsync());
         }
 
         // GET: Movies/Details/5
