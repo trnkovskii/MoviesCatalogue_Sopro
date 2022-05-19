@@ -19,17 +19,24 @@ namespace MoviesCatalogueSopro.Controllers
             _context = context;
         }
 
+//         // GET: Movies
+//         public async Task<IActionResult> Index(string searchString)
+//         {
+//             var movies = from m in _context.Movie
+//                          select m;
+
+//             if (!String.IsNullOrEmpty(searchString))
+//             {
+//                 movies = movies.Where(s => s.Title!.Contains(searchString));
+//             }
+
+//             return View(await movies.ToListAsync());
+//         }
+        
         // GET: Movies
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index()
         {
-            var movies = from m in _context.Movie
-                         select m;
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                movies = movies.Where(s => s.Title!.Contains(searchString));
-            }
-
+            var movies = _context.Movie.Include(m => m.Genre).Include(a => a.People);
             return View(await movies.ToListAsync());
         }
 
