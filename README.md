@@ -28,9 +28,9 @@ Photo 7. People Catalogue View
 
 Photo 8. Library View
 
- ![]()
+ ![](https://scontent.fskp4-2.fna.fbcdn.net/v/t39.30808-6/283029240_4978613415599533_3751637865557048876_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=n931O6QcNM8AX_ld2zd&tn=4tpyp--dBprw0Xg2&_nc_ht=scontent.fskp4-2.fna&oh=00_AT_0af64nHLtrKJyBXFKOwRgbu89hG1AhlZ9wpERPM8Klw&oe=628AC820)
  
 Photo 9. Add Movie To Library View
-![]()
+![](https://scontent.fskp4-1.fna.fbcdn.net/v/t39.30808-6/283094092_4978613425599532_585204807554881893_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=5X4q2ySdhOUAX8CuwKL&_nc_ht=scontent.fskp4-1.fna&oh=00_AT9wbyxHztNm1QdE9evfnGBDtsV6TvpEk68PgrbONwOc0A&oe=628B4B99)
 
 Genre, Person and Library actions (Edit, Delete and Details) are the same as Movie actions (Edit, Delete and Details) Views.
