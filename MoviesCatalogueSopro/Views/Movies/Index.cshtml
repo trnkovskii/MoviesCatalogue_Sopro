@@ -49,13 +49,13 @@
                 @Html.DisplayFor(modelItem => item.People.Name)
             </td>
             <td>
-                <img src="@item.MovieUrl" style="max-width:200px" />
+                <img src="@item.MovieUrl" style="max-width:100px" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ReleaseDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Link)
+                <a href="@Html.DisplayFor(modelItem => item.Link)">IMDB</a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Rating)
