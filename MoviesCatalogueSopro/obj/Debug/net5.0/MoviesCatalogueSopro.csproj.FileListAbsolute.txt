@@ -125,7 +125,6 @@ C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\bin\Debug\net5.0\runtimes\
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\MoviesCatalogueSopro.csproj.AssemblyReference.cache
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\MoviesCatalogueSopro.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\MoviesCatalogueSopro.AssemblyInfoInputs.cache
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\MoviesCatalogueSopro.AssemblyInfo.cs
@@ -177,3 +176,5 @@ C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\Razor\Vie
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\Razor\Views\Libraries\Details.cshtml.g.cs
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\Razor\Views\Libraries\Edit.cshtml.g.cs
 C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\Razor\Views\Libraries\Index.cshtml.g.cs
+C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\Razor\Views\Libraries\AddMovieToLibrary.cshtml.g.cs
+C:\Projects\MoviesCatalogueSopro\MoviesCatalogueSopro\obj\Debug\net5.0\MoviesCatalogueSopro.csproj.AssemblyReference.cache

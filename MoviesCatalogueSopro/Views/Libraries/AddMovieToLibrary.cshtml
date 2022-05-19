@@ -1,0 +1,17 @@
+﻿@model MoviesCatalogueSopro.Models.AddToLibraryModel
+
+@{
+    ViewBag.Title = "AddMovieToLibrary";
+}
+
+<h2>Add movie to @ViewBag.LibraryName</h2>
+
+@using (Html.BeginForm("AddMovieToLibrary", "Libraries"))
+{
+    <div class="form-group">
+        @Html.DropDownListFor(m => m.movieId, new SelectList(Model.Movies, "Id", "Title"), new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-default">Save</button>
+
+    @Html.HiddenFor(m => m.libraryId)
+} 

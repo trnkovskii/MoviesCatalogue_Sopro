@@ -20,3 +20,13 @@
 <div class="listButtonDetails">
     <a asp-action="Index">Back to List</a>
 </div>
+
+<h2>List of movies: </h2>
+<ul>
+    @foreach (var item in Model.movies)
+    {
+        <li>
+            <a href="/Movies/Details/@item.Id">@item.Title</a>
+        </li>
+    }
+</ul>

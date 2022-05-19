@@ -25,6 +25,28 @@ namespace MoviesCatalogueSopro.Controllers
             return View(await _context.Library.ToListAsync());
         }
 
+
+        //GET: AddToLibrary
+        public ActionResult AddMovieToLibrary(int id)
+        {
+            AddToLibraryModel model = new AddToLibraryModel();
+            model.libraryId = id;
+            model.Movies = _context.Movie.ToList();
+            var library = _context.Library.Find(id);
+            ViewBag.LibraryName = library.Name;
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult AddMovieToLibrary(AddToLibraryModel model)
+        {
+            var library = _context.Library.Find(model.libraryId);
+            var movie = _context.Movie.Find(model.movieId);
+            library.movies.Add(movie);
+            _context.SaveChanges();
+            return View("Index", _context.Library.ToList());
+        }
+
         // GET: Libraries/Details/5
         public async Task<IActionResult> Details(int? id)
         {
